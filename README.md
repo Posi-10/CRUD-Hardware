@@ -28,6 +28,8 @@ URI_DB=mongodb://localhost:27017/hardware
 
 Si no funciona el la variable de entorno `URI_DB` cambia el **localhost** por la ip **127.0.0.1**
 
+Si queremos tener importa algo a nuestra base de datos podemos importar el archivo [hardware](./json/hardwares)
+
 ## Configuración yarn
 
 Para la configuración de [yarn](https://yarnpkg.com/) y para su instalacion tenemos que ver que version de [Node.js](https://nodejs.org/) tenemos, si la version es mayor o igual a 16.10 ponemos el comando:
