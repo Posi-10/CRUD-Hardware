@@ -7,7 +7,7 @@ const dbConnnect = async() => {
     // metodo de conexión, le tenemos que poner la direccion de la base de datos, con una espera
     await mongoose.connect( process.env.URI_DB );
     // mandaamos un mensaje si la conexión fue exitoza
-    console.info('La Basee de Datos se conecto correctamente');
+    console.info('La Base de Datos se conecto correctamente');
   } catch (error) {
     // mandamos un mensaje si encontro un error al momento de encontrar
     console.error(error);

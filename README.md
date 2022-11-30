@@ -107,7 +107,11 @@ de misma manera que el directorio `node_modules/` el archivo `.env` no se encont
 |**model**|String|
 |**brand**|String|
 |**description**|String|
-|**release_year**|Date|
+|**release_year**|String|
 |**image_link**|String|
 
-9.     
+9. Haremos que nuestro motor de plantilla se visualiza por lo general tenemos que crear nuestra maquetacion en la carpeta `views/` crearemos el archivo [`index.pug`](./views/index.pug) ya que nuestro motor de platilla es [Pug](https://pugjs.org/api/getting-started.html), usaremos boodtrap para la creacion de este programa por buenas normas no lo instalaremos con yarm porque este kit de herramientas es para el lado front-end por esa situacion usaremos el CDN (Content Delivery Network) porque este servidor es del lado del back-end.
+10. Para jalar nuestra plantilla y que se muestre usaremos el comando `app.set('view engine', 'pug')` en el index.js desde la raiz del procyecto, tambien tenemos que redireccionamos la ruta con el `espress.get();` y dando su direccion raiz para visualizarce en el inicio de la pagina.
+11. Antes de manejar la peticiones de las del CRUD tenemos que indicar que el body.parser que analiza y que los combierta en formato json. con los comando `espress.urlencoded()` y `espress.json()`
+12. Ya teniendo nuestras vistas crearemos nuestro rutas y para identificar que las haciones que le vamos a declarar en el archivo [hardwareRoutes.js](./routes/hardwareRoutes.js) ubicado en la carpeta `routes/`. 
+13. Creamos los controladores para determinas las acciones de nuestras rutas en el archivo [hardwareControllers.js](./controllers/hardwareControllers.js) ubicado en el archivo `controllers/`.

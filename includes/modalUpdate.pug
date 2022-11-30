@@ -1,0 +1,42 @@
+#updateModal.modal.fade(tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true")
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h1#updateModalLabel.modal-title.fs-5 Actualizar Hardware
+        button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+
+      .modal-body
+        form(action="/update" method="POST" novalidate)
+          input#updateId(name="updateId" hidden)
+          .container
+            .row
+              .col-md-6
+                .mb-3
+                  label.from-label(for='updateHardware') Hardware:
+                  input#updateHardware.form-control(type='text' name='hardware' required)
+                .mb-3
+                  label.from-label(for='updateName') Nombre:
+                  input#updateName.form-control(type='text' name='name' required)
+                .mb-3
+                  label.from-label(for='updateModel') Modelo:
+                  input#updateModel.form-control(type='text' name='model' required)
+                .mb-3
+                  label.from-label(for='updateMarca') Marca:
+                  input#updateMarca.form-control(type='text' name='brand' required)
+                .mb-3
+                  label.from-label(for='updateYear') Año de lanzamiento:
+                  input#updateYear.form-control(type='date' name='release_year' required)
+              .col-md-6
+                .mb-3
+                  label.from-label(for='updateDescripcion') Descripción:
+                  textarea#updateDescripcion.form-control(row="3" name='description' required)
+                .mb-3
+                  label.from-label(for='updateLinkImg') Link de la Imagen:
+                  input#updateLinkImg.form-control(type='text' name='image_link' required)
+                #updateImg.mb-3
+                  img#mostartImgSubmit.img-fluid
+            .row
+              .col
+                .d-grid.gap-2.d-md-flex.justify-content-md-end
+                  button.btn.btn-primary.me-md-2(type="submit") Actualizar
+

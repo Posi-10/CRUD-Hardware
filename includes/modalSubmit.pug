@@ -1,0 +1,40 @@
+#submitModal.modal.fade(tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true")
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h1#submitModalLabel.modal-title.fs-5 Subir Hardware
+        button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+
+      .modal-body
+        form(action="/create" method="POST")
+          .container
+            .row
+              .col-md-6
+                .mb-3
+                  label.from-label(for='submitHardware') Hardware:
+                  input#submitHardware.form-control(type='text' name='hardware' required)
+                .mb-3
+                  label.from-label(for='submitName') Nombre:
+                  input#submitName.form-control(type='text' name='name' required)
+                .mb-3
+                  label.from-label(for='submitModel') Modelo:
+                  input#submitModel.form-control(type='text' name='model' required)
+                .mb-3
+                  label.from-label(for='submitMarca') Marca:
+                  input#submitMarca.form-control(type='text' name='brand' required)
+                .mb-3
+                  label.from-label(for='submitYear') Año de lanzamiento:
+                  input#submitYear.form-control(type='date' name='release_year' required)
+              .col-md-6
+                .mb-3
+                  label.from-label(for='submitDescripcion') Descripción:
+                  textarea#submitDescripcion.form-control(row="3" name='description' required)
+                .mb-3
+                  label.from-label(for='submitLinkImg') Link de la Imagen:
+                  input#submitLinkImg.form-control(type='text' name='image_link' required)
+                #submitImg.mb-3
+            .row
+              .col
+                .d-grid.gap-2.d-md-flex.justify-content-md-end
+                  button.btn.btn-primary.me-md-2(type="submit") Guardar
+

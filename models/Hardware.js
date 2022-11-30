@@ -28,7 +28,7 @@ const hardwareSchema = Schema({
     require: true
   },
   release_year: {
-    type: Date,
+    type: String,
     require: true,
   },
   image_link: {
