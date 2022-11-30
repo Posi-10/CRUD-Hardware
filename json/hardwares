@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6385b046d7f2c6a466aabc6a"
+  },
+  "hardware": "laptop",
+  "name": "ALIENWARE M15 R7 (AMD)",
+  "model": "LA_AM15R7_FR9161TB3070TIBW11S_1400",
+  "brand": "s",
+  "description": "AMD® Ryzen™ 9 6900HX (20 MB total cache, 8 cores, 16 threads, up to 4.90 GHz Max Boost Clock)\r\nWindows 11 Home Single Language, English, French, Spanish\r\nNVIDIA® GeForce RTX™ 3070 Ti, 8 GB GDDR6\r\n",
+  "release_year": "2022-11-01",
+  "image_link": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/m15-r7-amd/pdp/laptop-alienware-m15-r7-amd-pdp-hero.psd?qlt=95&fit=constrain,1&hei=350&wid=504&fmt=png-alpha",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6386b44001211fc6ba3a4e52"
+  },
+  "hardware": "Monitor",
+  "name": "Monitor Dell de 23,8\" ",
+  "model": "S2421H",
+  "brand": "DELL",
+  "description": "Monitor FHD de 23,8\" bellamente diseñado para adecuarse fácilmente a cualquier espacio preparado para su estilo de vida cotidiano.",
+  "release_year": "2021-01-06",
+  "image_link": "https://snpi.dell.com/snp/images/products/mlrg/es-mx~210-AXHF/210-AXHF_v3.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6386cbfaa8521cc1397c28df"
+  },
+  "hardware": "tablet",
+  "name": "Acer ENDURO Urban T3",
+  "model": "t3-enduro-u422",
+  "brand": "Acer",
+  "description": "La protección antimicrobiana se limita a la superficie táctil. En los productos con diseño antimicrobiano integral de Acer, se han implementado las soluciones antimicrobianas en superficies con gran nivel de contacto y en la mayor parte del área externa. ",
+  "release_year": "2022-01-01",
+  "image_link": "https://images.acer.com/is/image/acer/ENDURO-Urban-T3-EUT310A-11A-wallpaper-UI-polaris-blue-01-7?$Series-Component-L$",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6386cc95a8521cc1397c28e2"
+  },
+  "hardware": "mouse",
+  "name": "MX MASTER 3S",
+  "model": "MR00075",
+  "brand": "Logitech",
+  "description": "Altura: 124,9 mm\r\nAncho: 84,3 mm\r\nProfundidad: 51 mm\r\nPeso: 141 g",
+  "release_year": "2020-08-13",
+  "image_link": "https://resource.logitech.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-graphite.png?v=1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6386cd02a8521cc1397c28e5"
+  },
+  "hardware": "SSD",
+  "name": "WD Green SN350 NVMe",
+  "model": " WDS100T3G0C",
+  "brand": "Western Digital",
+  "description": "Capacidad\r\n1 TB\r\nInterfaz\r\nPCIe\r\nDimensiones (largo, ancho y alto)\r\n3.16\" x 0.87\" x 0.09\"\r\nRendimiento de lectura secuencial\r\n3200MB/s\r\nRendimiento de escritura secuencial\r\n2500MB/s",
+  "release_year": "2022-11-10",
+  "image_link": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-green-sn350-nvme-ssd/gallery/new/wd-green-sn350-nvme-ssd-1tb-front.png.wdthumb.1280.1280.webp",
+  "__v": 0
+}]
